@@ -1,0 +1,91 @@
+#container { width: 1000px;min-width: 800px;box-shadow: 0px 0px 8px 10px rgb(100,20,10,0.5);margin:0 auto;background-color:mintcream;height: 1165px }
+#top { width: 100%;height: 130px;background-image: linear-gradient(to bottom,blue,gray); }
+#logo-part { float: left;margin: 15px;background-color: none;height: 100px;width: 650px; }
+#logo {float: left;width: 100px;height: 100%;}
+#institute {float: right;width: 450px;height: 100%;color: white;font-size: 20px;}
+#follow {float: right;margin: 15px;background-color:none;height: 100px;width: 200px;}
+#navebar { width: 1000px;min-width: 800px;height: 35px;margin-top: 0px;position: absolute;display: flex;background: linear-gradient(to bottom, #29A8CB,#0273AD);}
+#img { width: 100%;height: 520px ;background-color:  red; }
+#content_area {width: 100%;height: 370px;background-color: gray;}
+
+.dropdown {
+  
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+text-align: left;
+ margin-left: -45px;
+  max-width:170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px 10px 0px;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content ul li { margin-left: -30px;margin-bottom: 16px }
+
+.dropdown-content ul li a {font-size: 15px;}
+
+#list li {float: left;color: white;padding: 0px 30px 4px 10px;text-transform: uppercase;}
+#list li a { color: white;text-decoration: none; }
+#list li div { background-color:black; }
+#list { list-style-type: none;margin-top: 9px;position: absolute; }
+#list li div ul{list-style-type: none;}
+#list li div ul li a{ color: white; }
+
+#foot { width: 100%;position: relative;margin-top: 60px; background-color:mintcream;height: 415px;}
+
+#FACILITIES ,#FACIL {list-style-type: none;position:absolute;}
+
+
+
+
+#FACILITIES li ,#FACIL li{ padding: 5px;
+    
+    cursor: pointer;
+    z-index: 2;
+    font: 16px Verdana, Arial, Helvetica, sans-serif;
+    
+    
+    text-shadow: 1px 1px 1px #424242;
+  
+    background: -webkit-linear-gradient(lightblue 0%,#3366FF 100%) repeat scroll 0 0 transparent;
+    
+    box-shadow: inset 0 1px 0 blue;
+     
+    text-align: center;
+
+   margin-bottom:16px;
+   margin-left: -30px;
+   left:0%;
+   width: 150%;
+   position:relative;
+   background-attachment: fixed;
+   }
+
+#FACILITIES li:hover,#FACIL li:hover  {
+   
+    cursor: pointer;
+    z-index: 2;
+    
+    
+    background: -webkit-linear-gradient(blue 0%,#3366FF 100%) no-repeat scroll 0 0 transparent;
+   }
+
+   #FACILITIES li a,#FACIL li a { text-decoration: none;color: white; }
+
+   #marquee { margin-top:2px;height: 170px }
+
+   #marquee a {color:gray; text-decoration: none; }
+   
+   #FACIL li { margin-left: -50px }
+
+   #footer { color: #aaaaaa;
+    background-color: #2C353E;height: 40px;width: 100% ;margin-top: 0px;position:relative;}
